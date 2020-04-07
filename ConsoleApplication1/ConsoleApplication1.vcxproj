@@ -147,7 +147,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Academico.cpp" />
+    <ClCompile Include="Carrera.cpp" />
+    <ClCompile Include="Ciclo_Lectivo.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="Curso.cpp" />
+    <ClCompile Include="Escuela.cpp" />
+    <ClCompile Include="Estudiante.cpp" />
+    <ClCompile Include="Grupo.cpp" />
+    <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="Usuario.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Academico.h" />
+    <ClInclude Include="Carrera.h" />
+    <ClInclude Include="Ciclo_Lectivo.h" />
+    <ClInclude Include="Curso.h" />
+    <ClInclude Include="Escuela.h" />
+    <ClInclude Include="Estudiante.h" />
+    <ClInclude Include="Grupo.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
